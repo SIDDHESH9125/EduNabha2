@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #137fec;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-50">
+<div class="relative flex h-auto min-h-screen w-full flex-col justify-between group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div>
+<header class="flex items-center bg-white p-4 justify-between sticky top-0 z-10 border-b border-gray-200">
+<button onclick="location.href='studentsettings.html'" type="button" class="text-gray-800 flex items-center justify-center p-2 rounded-full hover:bg-gray-100">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="text-gray-900 text-xl font-bold flex-1 text-center">Account Details</h1>
+<div class="w-10"></div>
+</header>
+<main class="p-6">
+<div class="flex flex-col items-center mb-8">
+<div class="relative mb-4">
+<img alt="Aarav Sharma's profile picture" class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-32 h-32" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3JndUi00l84ZU3JRnNT8SovtS14639lNwrxkfyL_ZwqSbNFuFGMv-BZOlzsDwoDN8fb8lHlnUIaL9O30I0hl0PJohWLk0g8HR-kUW05t8Z1r3Sz58Nh-cIojAGfJBR6n-22ka7r-cm44TUrUJx2z6gB_ihrDwHMNuzUcED4Ktb8KjrCyzwts48p1GWwQOf3IGKpec4D0nWaYOJrfMaX67rhgAyK0XE9a5T8VCw04JKn6NTMZF_gfY2Tu4Ex6Mg66rtnQBsDx-hgCs"/>
+<button class="absolute bottom-0 right-0 bg-[var(--primary-color)] text-white p-2 rounded-full hover:bg-blue-700 transition-colors">
+<span class="material-symbols-outlined">edit</span>
+</button>
+</div>
+<div class="text-center">
+<p class="text-gray-900 text-2xl font-bold">Priya Sharma</p>
+<p class="text-gray-500 text-base">Class 10, Roll No. 23</p>
+</div>
+</div>
+<div class="space-y-6">
+<section>
+<h2 class="text-gray-800 text-xl font-bold mb-4">Personal Information</h2>
+<div class="space-y-4">
+<label class="flex flex-col">
+<span class="text-gray-700 text-sm font-medium pb-2">Full Name</span>
+<input class="form-input w-full rounded-lg border-gray-300 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-base" value="Aarav Sharma"/>
+</label>
+<label class="flex flex-col">
+<span class="text-gray-700 text-sm font-medium pb-2">Date of Birth</span>
+<input class="form-input w-full rounded-lg border-gray-300 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-base" type="date" value="2008-05-15"/>
+</label>
+<label class="flex flex-col">
+<span class="text-gray-700 text-sm font-medium pb-2">Gender</span>
+<select class="form-select w-full rounded-lg border-gray-300 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-base">
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+</label>
+</div>
+</section>
+<section>
+<h2 class="text-gray-800 text-xl font-bold mb-4">Academic Details</h2>
+<div class="space-y-4">
+<label class="flex flex-col">
+<span class="text-gray-700 text-sm font-medium pb-2">Class</span>
+<input class="form-input w-full rounded-lg border-gray-300 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-base" value="10"/>
+</label>
+<label class="flex flex-col">
+<span class="text-gray-700 text-sm font-medium pb-2">Roll Number</span>
+<input class="form-input w-full rounded-lg border-gray-300 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-base" value="23"/>
+</label>
+</div>
+</section>
+<section>
+<h2 class="text-gray-800 text-xl font-bold mb-4">Guardian Information</h2>
+<div class="space-y-4">
+<label class="flex flex-col">
+<span class="text-gray-700 text-sm font-medium pb-2">Father's Name</span>
+<input class="form-input w-full rounded-lg border-gray-300 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-base" value="Rakesh Sharma"/>
+</label>
+<label class="flex flex-col">
+<span class="text-gray-700 text-sm font-medium pb-2">Mother's Name</span>
+<input class="form-input w-full rounded-lg border-gray-300 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-base" value="Sunita Sharma"/>
+</label>
+<label class="flex flex-col">
+<span class="text-gray-700 text-sm font-medium pb-2">Contact Number</span>
+<input class="form-input w-full rounded-lg border-gray-300 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)] h-12 px-4 text-base" value="+91 98765 43210"/>
+</label>
+</div>
+</section>
+</div>
+</main>
+</div>
+<footer class="bg-white p-4 sticky bottom-0 border-t border-gray-200">
+<button onclick="location.href='studentsettings.html'" type="button" class="w-full h-12 px-5 bg-[var(--primary-color)] text-white text-base font-bold rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">save</span>
+<span class="truncate">Save Changes</span>
+</button>
+</footer>
+</div>
+
+</body></html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Teaching Schedule</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+        :root {
+            --primary-color: #137fec;
+            --secondary-color: #F0F9FF;
+            --text-primary: #111827;
+            --text-secondary: #6B7280;
+            --background-color: #F9FAFB;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background-color);
+        }
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-primary">
+<div class="flex flex-col min-h-screen">
+<header class="bg-white sticky top-0 z-10 shadow-sm">
+<div class="container mx-auto px-4">
+<div class="flex items-center justify-between py-4">
+<button onclick="location.href='teacherprofile.html'" type="button" class="text-primary">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="text-xl font-bold">Teaching Schedule</h1>
+<button class="text-primary">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow pb-24">
+<div class="container mx-auto px-4 py-6">
+<div class="bg-white rounded-lg shadow-sm p-4 mb-6">
+<div class="flex items-center justify-between mb-4">
+<h2 class="text-lg font-bold">August 2024</h2>
+<div class="flex items-center gap-2">
+<button class="p-1 text-gray-500 hover:text-primary rounded-full transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="p-1 text-gray-500 hover:text-primary rounded-full transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="flex justify-around text-center text-sm font-medium text-secondary">
+<div class="flex flex-col items-center gap-2 p-2">
+<span class="text-gray-500">Mon</span>
+<span class="w-8 h-8 flex items-center justify-center rounded-full">19</span>
+</div>
+<div class="flex flex-col items-center gap-2 p-2 bg-secondary-color text-primary-color rounded-lg">
+<span class="">Tue</span>
+<span class="w-8 h-8 flex items-center justify-center bg-primary text-white rounded-full">20</span>
+</div>
+<div class="flex flex-col items-center gap-2 p-2">
+<span class="text-gray-500">Wed</span>
+<span class="w-8 h-8 flex items-center justify-center rounded-full">21</span>
+</div>
+<div class="flex flex-col items-center gap-2 p-2">
+<span class="text-gray-500">Thu</span>
+<span class="w-8 h-8 flex items-center justify-center rounded-full">22</span>
+</div>
+<div class="flex flex-col items-center gap-2 p-2">
+<span class="text-gray-500">Fri</span>
+<span class="w-8 h-8 flex items-center justify-center rounded-full">23</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between mb-4">
+<h3 class="text-lg font-semibold">Today's Classes</h3>
+<div class="flex items-center gap-2">
+<button class="text-sm text-primary font-medium">View all</button>
+</div>
+</div>
+<div class="space-y-4">
+<div class="bg-white rounded-lg shadow-sm p-4">
+<div class="flex items-start gap-4">
+<div class="flex-grow">
+<p class="font-bold text-lg">Class 10 - Science</p>
+<p class="text-secondary mb-2">Chapter 5: Periodic Classification of Elements</p>
+<div class="flex items-center gap-4 text-secondary text-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-base">schedule</span>
+<span>10:00 AM - 11:00 AM</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-base">groups</span>
+<span>Class 10A</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-2">
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-green-100 text-green-800">Upcoming</span>
+<div class="flex gap-2">
+<button class="text-secondary hover:text-primary transition-colors"><span class="material-symbols-outlined">edit</span></button>
+<button class="text-secondary hover:text-red-500 transition-colors"><span class="material-symbols-outlined">delete</span></button>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm p-4">
+<div class="flex items-start gap-4">
+<div class="flex-grow">
+<p class="font-bold text-lg">Class 9 - Science</p>
+<p class="text-secondary mb-2">Chapter 8: Motion - Revision &amp; Test</p>
+<div class="flex items-center gap-4 text-secondary text-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-base">schedule</span>
+<span>11:30 AM - 12:30 PM</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-base">groups</span>
+<span>Class 9B</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-2">
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-gray-100 text-gray-800">Completed</span>
+<div class="flex gap-2">
+<button class="text-secondary hover:text-primary transition-colors"><span class="material-symbols-outlined">edit</span></button>
+<button class="text-secondary hover:text-red-500 transition-colors"><span class="material-symbols-outlined">delete</span></button>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm p-4">
+<div class="flex items-start gap-4">
+<div class="flex-grow">
+<p class="font-bold text-lg">Class 10 - Mathematics</p>
+<p class="text-secondary mb-2">Chapter 3: Pair of Linear Equations in Two Variables</p>
+<div class="flex items-center gap-4 text-secondary text-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-base">schedule</span>
+<span>02:00 PM - 03:00 PM</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-base">groups</span>
+<span>Class 10B</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-2">
+<span class="px-3 py-1 text-xs font-medium rounded-full bg-blue-100 text-blue-800">In Progress</span>
+<div class="flex gap-2">
+<button class="text-secondary hover:text-primary transition-colors"><span class="material-symbols-outlined">edit</span></button>
+<button class="text-secondary hover:text-red-500 transition-colors"><span class="material-symbols-outlined">delete</span></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="fixed bottom-24 right-4 z-20">
+<button class="bg-primary text-white rounded-full p-4 shadow-lg hover:bg-blue-700 transition-colors">
+<span class="material-symbols-outlined">add</span>
+</button>
+</div>
+<footer class="bg-white sticky bottom-0 z-10 border-t border-gray-200">
+<nav class="container mx-auto px-4">
+<div class="flex justify-around py-2">
+<a class="flex flex-col items-center gap-1 text-secondary hover:text-primary transition-colors" href="teacherdashboard.html">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-xs font-medium">Dashboard</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-secondary hover:text-primary transition-colors" href="studentoverview.html">
+<span class="material-symbols-outlined">school</span>
+<span class="text-xs font-medium">Students</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-primary font-semibold" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
+<span class="text-xs">Schedule</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-secondary hover:text-primary transition-colors" href="teacherprofile.html">
+<span class="material-symbols-outlined">person</span>
+<span class="text-xs font-medium">Profile</span>
+</a>
+</div>
+</nav>
+</footer>
+</div>
+
+</body></html>
