@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #137fec;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-50">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div class="flex-grow">
+<header class="bg-white p-4 shadow-sm sticky top-0 z-10">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCVP8Ay1wUzsaPJOPra5exrw41ymJaYgf1CVMfgitC4IZE6QWqI6laMgbxZyl_wgRy9fOmKaOuhaFjbEXBvPcrWQuHeTMuVvqFG6W0Bk-rHhdWa5wNYVhSBxgR5V38HEZlUEsA9Nmqe6v3bZB2ziwtgpLFNawEDeUYLntoqP7bzH1RztXeALIvcouQzhAVaGll7SAQ7NXi7SwBZyXpzG5BdmuMMw7WIyk1Z7-7hqhdTG9Ye3bI4Se3G2UUV07Vjw5EN0b4tZY_ipxuM");'></div>
+<div>
+<h1 class="text-gray-800 text-lg font-bold leading-tight">Welcome, Teacher!</h1>
+<p class="text-gray-500 text-sm">Your Dashboard</p>
+</div>
+</div>
+<button class="text-gray-600 hover:text-[var(--primary-color)]">
+<span class="material-symbols-outlined">
+                    notifications
+                </span>
+</button>
+</div>
+</header>
+<main class="p-4">
+<section class="mb-6">
+<h2 class="text-gray-800 text-xl font-bold leading-tight tracking-[-0.015em] mb-4">Class Overview</h2>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+<a class="flex flex-col gap-2 rounded-xl p-4 bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-[var(--primary-color)] transition-shadow" href="#">
+<p class="text-gray-600 text-sm font-medium">Total Students</p>
+<p class="text-gray-900 text-3xl font-bold">120</p>
+</a>
+<a class="flex flex-col gap-2 rounded-xl p-4 bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-[var(--primary-color)] transition-shadow" href="#">
+<p class="text-gray-600 text-sm font-medium">Active Students</p>
+<p class="text-green-500 text-3xl font-bold">105</p>
+</a>
+<a class="col-span-2 md:col-span-1 flex flex-col gap-2 rounded-xl p-4 bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-[var(--primary-color)] transition-shadow" href="#">
+<p class="text-gray-600 text-sm font-medium">Average Score</p>
+<p class="text-[var(--primary-color)] text-3xl font-bold">78%</p>
+</a>
+</div>
+</section>
+<section>
+<div class="flex items-center justify-between mb-4">
+<h2 class="text-gray-800 text-xl font-bold leading-tight tracking-[-0.015em]">Recent Activity</h2>
+<a class="text-[var(--primary-color)] text-sm font-medium hover:underline" href="#">View All</a>
+</div>
+<div class="space-y-3">
+<a class="flex items-center gap-4 bg-white p-3 rounded-xl border border-gray-200 shadow-sm hover:shadow-md hover:border-[var(--primary-color)] transition-shadow cursor-pointer" href="assignments.html">
+<div class="text-white flex items-center justify-center rounded-full bg-[var(--primary-color)] shrink-0 size-10">
+<span class="material-symbols-outlined text-xl">
+                            assignment_turned_in
+                        </span>
+</div>
+<div class="flex-grow">
+<p class="text-gray-800 font-medium line-clamp-1">Assignment Submitted</p>
+<p class="text-gray-500 text-sm line-clamp-1">Math Assignment - 5 mins ago</p>
+</div>
+<span class="material-symbols-outlined text-gray-400">
+                           chevron_right
+                       </span>
+</a>
+<a class="flex items-center gap-4 bg-white p-3 rounded-xl border border-gray-200 shadow-sm hover:shadow-md hover:border-[var(--primary-color)] transition-shadow cursor-pointer" href="studentoverview.html">
+<div class="text-white flex items-center justify-center rounded-full bg-green-500 shrink-0 size-10">
+<span class="material-symbols-outlined text-xl">
+                            person_add
+                           </span>
+</div>
+<div class="flex-grow">
+<p class="text-gray-800 font-medium line-clamp-1">New Student Added</p>
+<p class="text-gray-500 text-sm line-clamp-1">Priya Sharma to Class 10 - 1 hour ago</p>
+</div>
+<span class="material-symbols-outlined text-gray-400">
+                           chevron_right
+                       </span>
+</a>
+<a class="flex items-center gap-4 bg-white p-3 rounded-xl border border-gray-200 shadow-sm hover:shadow-md hover:border-[var(--primary-color)] transition-shadow cursor-pointer" href="#">
+<div class="text-white flex items-center justify-center rounded-full bg-orange-500 shrink-0 size-10">
+<span class="material-symbols-outlined text-xl">
+                            quiz
+                         </span>
+</div>
+<div class="flex-grow">
+<p class="text-gray-800 font-medium line-clamp-1">Quiz Graded</p>
+<p class="text-gray-500 text-sm line-clamp-1">Science Quiz - Yesterday</p>
+</div>
+<span class="material-symbols-outlined text-gray-400">
+                           chevron_right
+                       </span>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-white border-t border-gray-200 shadow-t-lg">
+<div class="flex justify-around py-2">
+<a class="flex flex-col items-center justify-end gap-1 text-[var(--primary-color)]" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<p class="text-xs font-medium">Dashboard</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-gray-500 hover:text-[var(--primary-color)]" href="studentoverview.html">
+<span class="material-symbols-outlined !fill-0">groups</span>
+<p class="text-xs font-medium">Students</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-gray-500 hover:text-[var(--primary-color)]" href="assignments.html">
+<span class="material-symbols-outlined !fill-0">assignment</span>
+<p class="text-xs font-medium">Assignments</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-gray-500 hover:text-[var(--primary-color)]" href="teacherprofile.html">
+<span class="material-symbols-outlined !fill-0">person</span>
+<p class="text-xs font-medium">Profile</p>
+</a>
+</div>
+</footer>
+</div>
+
+</body></html>

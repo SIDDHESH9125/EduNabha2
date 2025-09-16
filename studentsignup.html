@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Student Sign Up</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    :root {
+      --primary-color: #137fec;
+      --foreground-color: #111418;
+      --background-color: #ffffff;
+      --input-background-color: #f0f2f4;
+      --placeholder-color: #617589;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .form-input {
+      background-color: var(--input-background-color);
+      color: var(--foreground-color);
+      border: 1px solid transparent;
+      transition: border-color 0.2s ease-in-out;
+    }
+    .form-input:focus {
+      outline: none;
+      ring: none;
+      border-color: var(--primary-color);
+      box-shadow: 0 0 0 2px rgba(19, 127, 236, 0.2);
+    }
+    .form-input::placeholder {
+      color: var(--placeholder-color);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-color text-foreground-color">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-10 bg-background-color shadow-sm">
+<div class="container mx-auto px-4">
+<div class="flex items-center justify-between h-16">
+<button onclick="location.href='signup.html'" type="button"  class="p-2 -ml-2">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</button>
+<h1 class="text-xl font-bold">Student Sign Up</h1>
+<div class="w-8"></div>
+</div>
+</div>
+</header>
+<main class="flex-grow container mx-auto px-4 py-8">
+<div class="max-w-md mx-auto">
+<div class="flex justify-center mb-8">
+<div class="w-32 h-32 bg-gray-200 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-6xl text-gray-400">school</span>
+</div>
+</div>
+<p class="text-center text-gray-600 mb-8">
+            Welcome! Please fill in your details to create an account.
+        </p>
+<form class="space-y-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1" for="studentName">Student Name</label>
+<input class="form-input w-full rounded-md h-12 px-4" id="studentName" placeholder="Enter your full name" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1" for="rollNumber">Roll Number</label>
+<input class="form-input w-full rounded-md h-12 px-4" id="rollNumber" placeholder="Enter your roll number" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1" for="class">Class</label>
+<select class="form-select form-input w-full rounded-md h-12 px-4 appearance-none" id="class">
+<option disabled="" selected="">Select Class</option>
+<option>1st</option>
+<option>2nd</option>
+<option>3rd</option>
+<option>4th</option>
+<option>5th</option>
+<option>6th</option>
+<option>7th</option>
+<option>8th</option>
+<option>9th</option>
+<option>10th</option>
+<option>11th</option>
+<option>12th</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1" for="guardianContact">Guardian's Contact</label>
+<input class="form-input w-full rounded-md h-12 px-4" id="guardianContact" placeholder="e.g. 9876543210" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1" for="schoolName">School Name</label>
+<input class="form-input w-full rounded-md h-12 px-4" id="schoolName" placeholder="Enter your school's name" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1" for="address">Address</label>
+<textarea class="form-input w-full rounded-md p-4" id="address" placeholder="Enter your full address" rows="3"></textarea>
+</div>
+<div>
+<button onclick="location.href='studentdashboard.html'" class="flex w-full items-center justify-center rounded-md h-12 px-5 bg-[var(--primary-color)] text-white text-base font-bold leading-normal tracking-wide shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--primary-color)]" type="button" >
+              Sign Up
+            </button>
+</div>
+</form>
+<div class="mt-6 text-center">
+<p class="text-sm text-gray-600">
+                Already have an account? <a class="font-medium text-primary-color hover:underline" href="login.html">Log in</a>
+</p>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>

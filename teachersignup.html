@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    :root {
+      --primary-color: #1380ec;
+    }
+    .form-input {
+      @apply w-full rounded-md border-gray-300 bg-gray-50 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)];
+    }
+    .form-label {
+      @apply text-sm font-medium text-gray-700;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-50" style="font-family: 'Inter', sans-serif;">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
+<div class="bg-white">
+<div class="flex items-center p-4">
+<button onclick="location.href='signup.html'" type="button"   class="text-gray-600 hover:text-gray-900">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h2 class="text-lg font-bold text-gray-800 flex-1 text-center pr-8">Sign Up</h2>
+</div>
+</div>
+<main class="flex-grow">
+<div class="px-4 py-6">
+<h1 class="text-2xl font-bold text-gray-900 mb-6">Create a Teacher Account</h1>
+<form class="space-y-4">
+<div>
+<label class="form-label" for="full-name">Full Name</label>
+<input class="form-input" id="full-name" placeholder="Enter your full name" type="text"/>
+</div>
+<div>
+<label class="form-label" for="email">Email</label>
+<input class="form-input" id="email" placeholder="Enter your email address" type="email"/>
+</div>
+<div>
+<label class="form-label" for="password">Password</label>
+<input class="form-input" id="password" placeholder="Create a password" type="password"/>
+</div>
+<div>
+<label class="form-label" for="confirm-password">Confirm Password</label>
+<input class="form-input" id="confirm-password" placeholder="Confirm your password" type="password"/>
+</div>
+<div>
+<label class="form-label" for="subjects">Subjects Taught</label>
+<input class="form-input" id="subjects" placeholder="e.g., Math, Science" type="text"/>
+</div>
+<div>
+<label class="form-label" for="school-id">School ID</label>
+<input class="form-input" id="school-id" placeholder="Enter your school's ID" type="text"/>
+</div>
+<div>
+<label class="form-label" for="qualifications">Qualifications</label>
+<input class="form-input" id="qualifications" placeholder="e.g., B.Ed, M.Sc" type="text"/>
+</div>
+<div>
+<label class="form-label" for="verification">Employment Verification</label>
+<div class="flex items-center justify-center w-full">
+<label class="flex flex-col items-center justify-center w-full h-32 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100" for="dropzone-file">
+<div class="flex flex-col items-center justify-center pt-5 pb-6">
+<span class="material-symbols-outlined text-gray-500">cloud_upload</span>
+<p class="mb-2 text-sm text-gray-500"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+<p class="text-xs text-gray-500">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+</div>
+<input class="hidden" id="dropzone-file" type="file"/>
+</label>
+</div>
+</div>
+<div class="pt-4">
+<button class="flex w-full items-center justify-center rounded-md h-12 px-5 bg-[var(--primary-color)] text-white text-base font-bold leading-normal tracking-wide shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--primary-color)]"  onclick="window.location.href='teacherdashboard.html'" type="button">
+              Sign Up
+            </button>
+
+</div>
+</form>
+</div>
+</main>
+<div class="bg-gray-50 pb-6 pt-2">
+<p class="text-sm text-gray-600 text-center">
+        Already have an account? <a class="font-medium text-[var(--primary-color)] hover:underline" href="login.html">Sign In</a>
+</p>
+</div>
+</div>
+
+</body></html>

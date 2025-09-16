@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Teacher Profile</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+        :root {
+            --primary-color: #137fec;
+            --secondary-color: #F0F9FF;
+            --text-primary: #111827;
+            --text-secondary: #6B7280;
+            --background-color: #F9FAFB;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background-color);
+        }
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+<style>
+        body {
+            min-height: max(884px, 100dvh);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-primary">
+<div class="flex flex-col min-h-screen">
+<header class="bg-white sticky top-0 z-10 shadow-sm">
+<div class="container mx-auto px-4">
+<div class="flex items-center justify-between py-4">
+<button onclick="location.href='teacherdashboard.html'" type="button" class="text-primary">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="text-xl font-bold">Profile</h1>
+<div class="w-8"></div>
+</div>
+</div>
+</header>
+<main class="flex-grow pb-6">
+<div class="container mx-auto px-4 py-6">
+<a class="flex flex-col items-center gap-4 mb-8 group" href="#">
+<div class="relative">
+<img alt="Profile Picture" class="w-32 h-32 rounded-full object-cover shadow-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5eSvRX-8BvNmRbLovflBWuPL3MxZbM6Whn5xz86XPAXZdvpZ3KGi-_PIA2PXIWQXx46LicAdO-UO99NcYPY6JMAkQBKmVta8xbTG1o593IDMyDAGBGE7DUuWOqrPHWerLC8pV1FUPREJkIU84nJKN6WQlwdOAEkAi5co6HBkybXjuMkSoOrFJqq5i5dpBB_A4Ztdoua-tuSVPUr_nPA9Fiu6CfWUDwGo_6F-w8jGtXhpNp8jHVW_5Z3ybDOwAQn3wk24L9S5jqd10"/>
+<div class="absolute bottom-1 right-1 bg-[var(--primary-color)] text-white rounded-full p-1.5 shadow-md">
+<span class="material-symbols-outlined text-base">edit</span>
+</div>
+</div>
+<div class="text-center">
+<h2 class="text-2xl font-bold">Ms. Kaur</h2>
+<p class="text-secondary">Science Teacher</p>
+<p class="text-secondary">Nabha High School</p>
+</div>
+</a>
+<div class="space-y-6">
+<div>
+<h3 class="text-lg font-semibold mb-3 px-2">Teaching Details</h3>
+<div class="bg-white rounded-lg shadow-sm divide-y divide-gray-100">
+<a class="flex items-center gap-4 p-4 hover:bg-gray-50 transition-colors" href="#">
+<div class="bg-secondary-color text-primary-color rounded-full p-3 flex items-center justify-center">
+<span class="material-symbols-outlined">auto_stories</span>
+</div>
+<div class="flex-grow">
+<p class="font-medium">Subjects Taught</p>
+<p class="text-secondary text-sm">Science, Mathematics</p>
+</div>
+<span class="material-symbols-outlined text-secondary">chevron_right</span>
+</a>
+<a class="flex items-center gap-4 p-4 hover:bg-gray-50 transition-colors" href="#">
+<div class="bg-secondary-color text-primary-color rounded-full p-3 flex items-center justify-center">
+<span class="material-symbols-outlined">groups</span>
+</div>
+<div class="flex-grow">
+<p class="font-medium">Classes Assigned</p>
+<p class="text-secondary text-sm">Classes 9, 10</p>
+</div>
+<span class="material-symbols-outlined text-secondary">chevron_right</span>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-3 px-2">Schedule &amp; Resources</h3>
+<div class="bg-white rounded-lg shadow-sm divide-y divide-gray-100">
+<a class="flex items-center gap-4 p-4 hover:bg-gray-50 transition-colors" href="#">
+<div class="bg-secondary-color text-primary-color rounded-full p-2.5 flex items-center justify-center">
+<span class="material-symbols-outlined">calendar_month</span>
+</div>
+<p class="flex-grow font-medium">Teaching Schedule</p>
+<span class="material-symbols-outlined text-secondary">chevron_right</span>
+</a>
+<a class="flex items-center gap-4 p-4 hover:bg-gray-50 transition-colors" href="#">
+<div class="bg-secondary-color text-primary-color rounded-full p-2.5 flex items-center justify-center">
+<span class="material-symbols-outlined">folder_open</span>
+</div>
+<p class="flex-grow font-medium">Manage Resources</p>
+<span class="material-symbols-outlined text-secondary">chevron_right</span>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-3 px-2">Settings</h3>
+<div class="bg-white rounded-lg shadow-sm divide-y divide-gray-100">
+<a class="flex items-center gap-4 p-4 hover:bg-gray-50 transition-colors" href="teachersetting.html">
+<div class="bg-secondary-color text-primary-color rounded-full p-2.5 flex items-center justify-center">
+<span class="material-symbols-outlined">settings</span>
+</div>
+<p class="flex-grow font-medium">Account Settings</p>
+<span class="material-symbols-outlined text-secondary">chevron_right</span>
+</a>
+<a class="flex items-center gap-4 p-4 hover:bg-gray-50 transition-colors" href="#">
+<div class="bg-secondary-color text-primary-color rounded-full p-2.5 flex items-center justify-center">
+<span class="material-symbols-outlined">notifications</span>
+</div>
+<p class="flex-grow font-medium">Notifications</p>
+<span class="material-symbols-outlined text-secondary">chevron_right</span>
+</a>
+</div>
+</div>
+<div class="pt-6">
+<button onclick="location.href='login.html'" type="button" class="w-full flex items-center justify-center gap-2 rounded-lg bg-red-50 text-red-600 font-bold py-3 px-4 hover:bg-red-100 transition-colors">
+<span class="material-symbols-outlined">logout</span>
+<span>Logout</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-white sticky bottom-0 z-10 border-t border-gray-200">
+<nav class="container mx-auto px-4">
+<div class="flex justify-around py-2">
+<a class="flex flex-col items-center gap-1 text-secondary hover:text-primary-color transition-colors" href="teacherdashboard.html">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-xs font-medium">Dashboard</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-secondary hover:text-primary-color transition-colors" href="studentoverview.html">
+<span class="material-symbols-outlined">school</span>
+<span class="text-xs font-medium">Students</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-secondary hover:text-primary-color transition-colors" href="assignments.html">
+<span class="material-symbols-outlined">assignment</span>
+<span class="text-xs font-medium">Assignments</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-primary-color font-semibold" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">person</span>
+<span class="text-xs">Profile</span>
+</a>
+</div>
+</nav>
+</footer>
+</div>
+
+</body></html>

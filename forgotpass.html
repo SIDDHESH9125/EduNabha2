@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Forgot Password</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+        :root {
+            --primary-color: #137fec;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-50">
+<div class="flex flex-col h-screen">
+<header class="flex items-center p-4 border-b border-gray-200">
+<button onclick="location.href='login.html'" type="button" class="text-gray-600">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<h1 class="text-lg font-semibold text-gray-800 text-center flex-grow -ml-6">Forgot Password</h1>
+</header>
+<main class="flex-grow p-6">
+<div class="mb-6">
+<h2 class="text-2xl font-bold text-gray-900 mb-2">Recover your account</h2>
+<p class="text-gray-600">Enter your registered mobile number or email to receive a verification code.</p>
+</div>
+<form>
+<div class="mb-4">
+<label class="sr-only" for="emailOrPhone">Mobile Number or Email</label>
+<input class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] focus:border-transparent transition-colors" id="emailOrPhone" placeholder="Mobile Number or Email" type="text"/>
+</div>
+<button class="w-full bg-[var(--primary-color)] text-white font-semibold py-3 px-4 rounded-md hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--primary-color)] transition-colors" type="submit">
+                    Send Verification Code
+                </button>
+</form>
+</main>
+<footer class="p-6">
+<div class="text-center">
+<img alt="Illustration of a person with a key" class="mx-auto max-w-full h-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9fpEZf4R_0qgvNYxG33ZExpaSWR78N5le8h9suUY-fcxVcsiZ5YwL2xEXgpTGuYFuGrDTWRy2IRUZenzzkEH_gliK7Bxu-cNldDHtucfz9bDCwgr--RZG7eaTkW3LUR7VqRrKSWzRl1nGMDV1u2f6tiT6_3Gf0fnOrYYBzUtUjgJohp_TlUzcNXu2wInQILWilS2jxqaZZjQ1PviwAWcyD87yOHsDNpJjClbnYWtt1H5GvrdbFiXlqxXMe3FEkLFx_NMOvPTfH2fp"/>
+</div>
+</footer>
+</div>
+
+</body></html>

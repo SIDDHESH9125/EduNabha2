@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #137fec;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-50">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div class="flex-grow">
+<header class="bg-white p-4 shadow-sm sticky top-0 z-10">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-4">
+<button onclick="location.href='teacherdashboard.html'" type="button" class="text-gray-600 hover:text-[var(--primary-color)]">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="text-gray-800 text-lg font-bold leading-tight">Assignments</h1>
+</div>
+<button class="flex items-center justify-center text-white bg-[var(--primary-color)] rounded-full size-10">
+<span class="material-symbols-outlined">add</span>
+</button>
+</div>
+</header>
+<main class="p-4">
+<section class="mb-6">
+<div class="flex items-center gap-2 mb-4">
+<div class="relative flex-grow">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">search</span>
+<input class="w-full rounded-full border-gray-300 pl-10 pr-4 py-2 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)]" placeholder="Search assignments..." type="text"/>
+</div>
+<button class="flex items-center gap-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-gray-700 hover:bg-gray-100">
+<span class="material-symbols-outlined text-xl">filter_list</span>
+<span>Filter</span>
+</button>
+</div>
+<div class="flex gap-2 mb-4">
+<button class="flex-1 rounded-full border border-[var(--primary-color)] bg-[var(--primary-color)] px-4 py-2 text-white text-sm font-medium">All</button>
+<button class="flex-1 rounded-full border border-gray-300 bg-white px-4 py-2 text-gray-700 text-sm font-medium">Pending</button>
+<button class="flex-1 rounded-full border border-gray-300 bg-white px-4 py-2 text-gray-700 text-sm font-medium">Graded</button>
+</div>
+</section>
+<section>
+<h2 class="text-gray-800 text-xl font-bold leading-tight tracking-[-0.015em] mb-4">Upcoming Assignments</h2>
+<div class="space-y-3">
+<div class="flex flex-col gap-4 rounded-xl p-4 bg-white border border-gray-200 shadow-sm">
+<div class="flex items-start justify-between">
+<div>
+<h3 class="text-gray-800 font-bold">Mathematics - Algebra</h3>
+<p class="text-gray-500 text-sm">Due: 25 Oct 2023</p>
+</div>
+<span class="text-orange-500 bg-orange-100 text-xs font-medium px-2 py-1 rounded-full">Pending</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center -space-x-2">
+<img alt="" class="inline-block size-8 rounded-full ring-2 ring-white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCTP8PlWXoNvYtSk73LjHqnpz1HuSam5mq_bPGykYuCl7mba0uOdgT2aQD4kdhJl6t0_ubPfmqjXIsw7mFBn5gj-1WQaey2Aw8FNp9UYw6W6i4y-gNbnelwlDoLwnLhzv6CwgzCGpPmK1wAaffalAN-489e83Tnsz-ivR3Q6dh-mBbNaDenqmF_hXu8z-g5Z3cpepZhS4pw_H4dKQkv6yT2vF57WMWE47ssYutTUbVeGrRUSV8kV6JwH1foJPCrZSO-vX5QcFFFV3H"/>
+<img alt="" class="inline-block size-8 rounded-full ring-2 ring-white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCTP8PlWXoNvYtSk73LjHqnpz1HuSam5mq_bPGykYuCl7mba0uOdgT2aQD4kdhJl6t0_ubPfmqjXIsw7mFBn5gj-1WQaey2Aw8FNp9UYw6W6i4y-gNbnelwlDoLwnLhzv6CwgzCGpPmK1wAaffalAN-489e83Tnsz-ivR3Q6dh-mBbNaDenqmF_hXu8z-g5Z3cpepZhS4pw_H4dKQkv6yT2vF57WMWE47ssYutTUbVeGrRUSV8kV6JwH1foJPCrZSO-vX5QcFFFV3H"/>
+<img alt="" class="inline-block size-8 rounded-full ring-2 ring-white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCTP8PlWXoNvYtSk73LjHqnpz1HuSam5mq_bPGykYuCl7mba0uOdgT2aQD4kdhJl6t0_ubPfmqjXIsw7mFBn5gj-1WQaey2Aw8FNp9UYw6W6i4y-gNbnelwlDoLwnLhzv6CwgzCGpPmK1wAaffalAN-489e83Tnsz-ivR3Q6dh-mBbNaDenqmF_hXu8z-g5Z3cpepZhS4pw_H4dKQkv6yT2vF57WMWE47ssYutTUbVeGrRUSV8kV6JwH1foJPCrZSO-vX5QcFFFV3H"/>
+<div class="flex items-center justify-center size-8 rounded-full bg-gray-200 text-gray-600 text-xs font-semibold ring-2 ring-white">+27</div>
+</div>
+<p class="text-gray-600 text-sm">30/30 Submitted</p>
+</div>
+<div class="flex gap-2">
+<button class="flex-1 rounded-lg bg-gray-100 px-4 py-2 text-gray-800 font-medium text-sm hover:bg-gray-200">View Submissions</button>
+<button class="flex-1 rounded-lg bg-[var(--primary-color)] px-4 py-2 text-white font-medium text-sm hover:bg-blue-700">Grade Now</button>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl p-4 bg-white border border-gray-200 shadow-sm">
+<div class="flex items-start justify-between">
+<div>
+<h3 class="text-gray-800 font-bold">Science - Physics Practical</h3>
+<p class="text-gray-500 text-sm">Due: 28 Oct 2023</p>
+</div>
+<span class="text-red-500 bg-red-100 text-xs font-medium px-2 py-1 rounded-full">Overdue</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center -space-x-2">
+<img alt="" class="inline-block size-8 rounded-full ring-2 ring-white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCTP8PlWXoNvYtSk73LjHqnpz1HuSam5mq_bPGykYuCl7mba0uOdgT2aQD4kdhJl6t0_ubPfmqjXIsw7mFBn5gj-1WQaey2Aw8FNp9UYw6W6i4y-gNbnelwlDoLwnLhzv6CwgzCGpPmK1wAaffalAN-489e83Tnsz-ivR3Q6dh-mBbNaDenqmF_hXu8z-g5Z3cpepZhS4pw_H4dKQkv6yT2vF57WMWE47ssYutTUbVeGrRUSV8kV6JwH1foJPCrZSO-vX5QcFFFV3H"/>
+<img alt="" class="inline-block size-8 rounded-full ring-2 ring-white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCTP8PlWXoNvYtSk73LjHqnpz1HuSam5mq_bPGykYuCl7mba0uOdgT2aQD4kdhJl6t0_ubPfmqjXIsw7mFBn5gj-1WQaey2Aw8FNp9UYw6W6i4y-gNbnelwlDoLwnLhzv6CwgzCGpPmK1wAaffalAN-489e83Tnsz-ivR3Q6dh-mBbNaDenqmF_hXu8z-g5Z3cpepZhS4pw_H4dKQkv6yT2vF57WMWE47ssYutTUbVeGrRUSV8kV6JwH1foJPCrZSO-vX5QcFFFV3H"/>
+<img alt="" class="inline-block size-8 rounded-full ring-2 ring-white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCTP8PlWXoNvYtSk73LjHqnpz1HuSam5mq_bPGykYuCl7mba0uOdgT2aQD4kdhJl6t0_ubPfmqjXIsw7mFBn5gj-1WQaey2Aw8FNp9UYw6W6i4y-gNbnelwlDoLwnLhzv6CwgzCGpPmK1wAaffalAN-489e83Tnsz-ivR3Q6dh-mBbNaDenqmF_hXu8z-g5Z3cpepZhS4pw_H4dKQkv6yT2vF57WMWE47ssYutTUbVeGrRUSV8kV6JwH1foJPCrZSO-vX5QcFFFV3H"/>
+<div class="flex items-center justify-center size-8 rounded-full bg-gray-200 text-gray-600 text-xs font-semibold ring-2 ring-white">+22</div>
+</div>
+<p class="text-gray-600 text-sm">25/28 Submitted</p>
+</div>
+<div class="flex gap-2">
+<button class="flex-1 rounded-lg bg-gray-100 px-4 py-2 text-gray-800 font-medium text-sm hover:bg-gray-200">View Submissions</button>
+<button class="flex-1 rounded-lg bg-[var(--primary-color)] px-4 py-2 text-white font-medium text-sm hover:bg-blue-700">Grade Now</button>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl p-4 bg-white border border-gray-200 shadow-sm">
+<div class="flex items-start justify-between">
+<div>
+<h3 class="text-gray-800 font-bold">History - Ancient Civilizations</h3>
+<p class="text-gray-500 text-sm">Graded: 22 Oct 2023</p>
+</div>
+<span class="text-green-500 bg-green-100 text-xs font-medium px-2 py-1 rounded-full">Graded</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center">
+<p class="text-gray-600 text-sm">Average Score: <span class="font-bold text-gray-800">85%</span></p>
+</div>
+<button class="rounded-lg bg-gray-100 px-4 py-2 text-gray-800 font-medium text-sm hover:bg-gray-200">View Report</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-white border-t border-gray-200 shadow-t-lg">
+<div class="flex justify-around py-2">
+<a class="flex flex-col items-center justify-end gap-1 text-gray-500 hover:text-[var(--primary-color)]" href="teacherdashboard.html">
+<span class="material-symbols-outlined !fill-0">dashboard</span>
+<p class="text-xs font-medium">Dashboard</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-gray-500 hover:text-[var(--primary-color)]" href="studentoverview.html">
+<span class="material-symbols-outlined !fill-0">groups</span>
+<p class="text-xs font-medium">Students</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-[var(--primary-color)]" href="#">
+<span class="material-symbols-outlined">assignment</span>
+<p class="text-xs font-medium">Assignments</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-gray-500 hover:text-[var(--primary-color)]" href="teacherprofile.html">
+<span class="material-symbols-outlined !fill-0">person</span>
+<p class="text-xs font-medium">Profile</p>
+</a>
+</div>
+</footer>
+</div>
+
+</body></html>

@@ -1,0 +1,129 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!---
+<script type="module">
+  import { GoogleGenerativeAI } from "https://cdn.jsdelivr.net/npm/@google/generative-ai@0.14.0/dist/index.min.js";
+
+
+
+// Replace 'YOUR_API_KEY' with the key you provided
+const API_KEY = "AIzaSyDow8nuc3I7S8bDnILBlxjG4M_ZA4kE2y0"; 
+
+const genAI = new GoogleGenerativeAI({ apiKey: API_KEY });
+
+async function main() {
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+  
+  const result = await model.generateContent({
+    contents: [{ role: "user", parts: [{ text: "Explain how AI works in a few words" }] }],
+  });
+  const response = result.response;
+  console.log(response.text);
+}
+
+main();
+</script>*/
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #137fec;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>-->
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-50">
+<div class="relative flex h-auto min-h-screen w-full flex-col justify-between group/design-root overflow-x-hidden" style='font-family: Lexend, "Noto Sans", sans-serif;'>
+<div class="flex flex-col flex-1">
+<header class="flex items-center bg-white p-4 shadow-sm sticky top-0 z-10">
+<button onclick="location.href='studentdashboard.html'" type="button" class="text-gray-600">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+<h1 class="text-gray-800 text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-6">AI Teacher Bot</h1>
+</header>
+<main class="flex-1 overflow-y-auto p-4 space-y-6">
+<div class="flex items-end gap-3">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 h-10 shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD_iZ6ND6kXwbNNwmSp9R9lIJkKdY7lS0VJ-MYiabn4c-jqVXCNqEGJzJAy1muMJ9sObIecEuMPzxha613vFwWg9fJUP29KJODQ3aHu8cFDiqlgx75vM2GWYUJb8JdQgWJaNSh4Nn8sFZ7-ykaSOslXWH-wwfazmVNi8dH4718aHz_qRSvipCV-RaagQThdQ2INELuUspPtDiLaB42P8mpdVp19WZYRVJ8W-0DkU6s25SLsfk7O_UmjiGS3F_gfPGC4XV9xc76xJD7I");'></div>
+<div class="flex flex-1 flex-col gap-1.5 items-start">
+<p class="text-gray-500 text-sm font-medium">AI Teacher Bot</p>
+<div class="bg-white rounded-lg p-3 shadow-sm max-w-xs">
+<p class="text-base font-normal text-gray-800">
+                  Hello! I'm here to help you with your studies. Ask me anything about your lessons, and I'll do my best to assist you.
+                </p>
+</div>
+</div>
+</div>
+<div class="flex items-end gap-3 justify-end">
+<div class="flex flex-1 flex-col gap-1.5 items-end">
+<p class="text-gray-500 text-sm font-medium">You</p>
+<div class="bg-[var(--primary-color)] text-white rounded-lg p-3 shadow-sm max-w-xs">
+<p class="text-base font-normal">
+                    Can you explain the water cycle?
+                  </p>
+</div>
+</div>
+<div class="w-10 h-10 shrink-0"></div>
+</div>
+</main>
+</div>
+<footer class="bg-white sticky bottom-0 z-10 pb-3">
+<div class="flex items-center px-4 py-3 gap-3">
+<div class="flex w-full flex-1 items-center rounded-full bg-gray-100 h-12 px-4">
+<input class="form-input w-full min-w-0 flex-1 resize-none overflow-hidden bg-transparent text-gray-800 focus:outline-none focus:ring-0 border-none h-full placeholder:text-gray-500 text-base font-normal" placeholder="Ask a question..." value=""/>
+<button class="flex items-center justify-center p-2 text-gray-500 hover:text-[var(--primary-color)]">
+<span class="material-symbols-outlined text-2xl">
+                mic
+              </span>
+</button>
+<button class="flex items-center justify-center p-2 text-gray-500 hover:text-[var(--primary-color)]">
+<span class="material-symbols-outlined text-2xl">
+                    image
+                </span>
+</button>
+<button class="ml-2 flex items-center justify-center p-2 rounded-full bg-[var(--primary-color)] text-white">
+<span class="material-symbols-outlined text-2xl">
+                    send
+                </span>
+</button>
+</div>
+</div>
+<nav class="flex justify-around border-t border-gray-100 pt-3">
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--primary-color)]" href="studentdashboard.html">
+<span class="material-symbols-outlined">home</span>
+<p class="text-xs font-medium">Dashboard</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-[var(--primary-color)]" href="courses.html">
+<span class="material-symbols-outlined">school</span>
+<p class="text-xs font-medium">Courses</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-[var(--primary-color)]" href="download.html">
+<span class="material-symbols-outlined">download</span>
+<p class="text-xs font-medium">Downloads</p>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-[var(--primary-color)]" href="studentprofile.html">
+<span class="material-symbols-outlined">person</span>
+<p class="text-xs font-medium">Profile</p>
+</a>
+</nav>
+</footer>
+</div>
+<script src="script2.js"></script>
+
+</body></html>

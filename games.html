@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    :root {
+      --primary-color: #137fec;
+      --secondary-color: #ff9800;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-50">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div class="flex-grow">
+<header class="bg-white sticky top-0 z-10 shadow-sm">
+<div class="flex items-center p-4 justify-between">
+<button onclick="location.href='studentdashboard.html'" class="flex items-center justify-center rounded-full h-10 w-10 text-gray-700 hover:bg-gray-100 transition-colors" type="button">
+<span class="material-symbols-outlined"> arrow_back </span>
+</button>
+<h1 class="text-gray-900 text-xl font-bold leading-tight tracking-tighter flex-1 text-center">Learning Zone</h1>
+<button class="flex items-center justify-center rounded-full h-10 w-10 bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors">
+<span class="material-symbols-outlined"> notifications </span>
+</button>
+</div>
+</header>
+<main class="p-4">
+<section class="mb-8 bg-white p-4 rounded-lg shadow-sm">
+<div class="flex items-center justify-between mb-4">
+<h2 class="text-gray-900 text-2xl font-bold leading-tight tracking-tighter">Weekly Challenges</h2>
+<a class="text-sm font-medium text-[var(--primary-color)]" href="#">View All</a>
+</div>
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-4 p-4 rounded-lg bg-yellow-100 border border-yellow-300">
+<span class="material-symbols-outlined text-4xl text-yellow-500"> military_tech </span>
+<div class="flex-1">
+<h3 class="text-gray-900 font-semibold">Math Master</h3>
+<p class="text-gray-600 text-sm">Complete 5 algebra quizzes</p>
+</div>
+<div class="flex flex-col items-end">
+<p class="text-sm font-bold text-yellow-600">100 XP</p>
+<span class="text-xs text-gray-500">3/5 Done</span>
+</div>
+</div>
+<div class="flex items-center gap-4 p-4 rounded-lg bg-green-100 border border-green-300">
+<span class="material-symbols-outlined text-4xl text-green-500"> science </span>
+<div class="flex-1">
+<h3 class="text-gray-900 font-semibold">Science Explorer</h3>
+<p class="text-gray-600 text-sm">Finish the 'Photosynthesis' module</p>
+</div>
+<div class="flex flex-col items-end">
+<p class="text-sm font-bold text-green-600">150 XP</p>
+<span class="text-xs text-gray-500">1/1 Done</span>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-8">
+<h2 class="text-gray-900 text-2xl font-bold leading-tight tracking-tighter mb-4">My Progress</h2>
+<div class="bg-white p-4 rounded-lg shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<p class="font-semibold text-gray-800">Total Points</p>
+<p class="font-bold text-[var(--secondary-color)] text-lg">2,500 XP</p>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-4 mb-4">
+<div class="bg-[var(--secondary-color)] h-4 rounded-full" style="width: 75%"></div>
+</div>
+<div class="flex justify-between text-sm text-gray-500">
+<span>Level 5</span>
+<span>Level 6</span>
+</div>
+</div>
+</section>
+<section class="mb-8">
+<h2 class="text-gray-900 text-2xl font-bold leading-tight tracking-tighter mb-4">Earned Badges</h2>
+<div class="grid grid-cols-3 gap-4 text-center">
+<div class="flex flex-col items-center gap-2">
+<div class="w-20 h-20 rounded-full bg-yellow-200 flex items-center justify-center">
+<span class="material-symbols-outlined text-5xl text-yellow-500"> star </span>
+</div>
+<p class="text-sm font-medium text-gray-700">Quick Learner</p>
+</div>
+<div class="flex flex-col items-center gap-2">
+<div class="w-20 h-20 rounded-full bg-blue-200 flex items-center justify-center">
+<span class="material-symbols-outlined text-5xl text-blue-500"> local_fire_department </span>
+</div>
+<p class="text-sm font-medium text-gray-700">Streak Master</p>
+</div>
+<div class="flex flex-col items-center gap-2">
+<div class="w-20 h-20 rounded-full bg-green-200 flex items-center justify-center">
+<span class="material-symbols-outlined text-5xl text-green-500"> book </span>
+</div>
+<p class="text-sm font-medium text-gray-700">Book Worm</p>
+</div>
+</div>
+</section>
+<section class="mb-8">
+<h2 class="text-gray-900 text-2xl font-bold leading-tight tracking-tighter mb-4">Leaderboard</h2>
+<div class="bg-white rounded-lg shadow-sm">
+<div class="flex items-center p-4 border-b border-gray-200">
+<p class="text-lg font-bold text-gray-800 w-8">#1</p>
+<img alt="User Avatar" class="w-10 h-10 rounded-full mr-4" src="https://lh3.googleusercontent.com/a/ACg8ocK88C3qM8wJ-3XWq_4t_C1L3Qn3X8T1B1F2Y4P9cZz=s96-c"/>
+<p class="font-semibold flex-1">Riya Sharma</p>
+<p class="font-bold text-[var(--secondary-color)]">3,200 XP</p>
+</div>
+<div class="flex items-center p-4 border-b border-gray-200">
+<p class="text-lg font-bold text-gray-800 w-8">#2</p>
+<img alt="User Avatar" class="w-10 h-10 rounded-full mr-4" src="https://lh3.googleusercontent.com/a/ACg8ocJwZkI8y7n1wBqB2gI5zN_2F0gX6eD7bI1L3V5uM8g=s96-c"/>
+<p class="font-semibold flex-1">Amanpreet Singh</p>
+<p class="font-bold text-[var(--secondary-color)]">2,850 XP</p>
+</div>
+<div class="flex items-center p-4 bg-blue-50 rounded-b-lg">
+<p class="text-lg font-bold text-[var(--primary-color)] w-8">#5</p>
+<img alt="User Avatar" class="w-10 h-10 rounded-full mr-4" src="https://lh3.googleusercontent.com/a/ACg8ocK88C3qM8wJ-3XWq_4t_C1L3Qn3X8T1B1F2Y4P9cZz=s96-c"/>
+<p class="font-semibold flex-1">You</p>
+<p class="font-bold text-[var(--secondary-color)]">2,500 XP</p>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-gray-900 text-2xl font-bold leading-tight tracking-tighter mb-4">Rewards</h2>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white p-4 rounded-lg shadow-sm text-center">
+<span class="material-symbols-outlined text-5xl text-red-500 mb-2"> confirmation_number </span>
+<h3 class="font-semibold text-gray-800">Movie Ticket</h3>
+<p class="text-sm text-gray-500">5000 XP</p>
+</div>
+<div class="bg-white p-4 rounded-lg shadow-sm text-center">
+<span class="material-symbols-outlined text-5xl text-blue-500 mb-2"> shopping_bag </span>
+<h3 class="font-semibold text-gray-800">School Supplies</h3>
+<p class="text-sm text-gray-500">3000 XP</p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<footer class="bg-white sticky bottom-0 z-10 border-t border-gray-200">
+<div class="flex justify-around items-center px-2 pt-2 pb-3">
+<a class="flex flex-col items-center justify-end gap-1 text-gray-500 hover:text-[var(--primary-color)] transition-colors" href="studentdashboard.html">
+<span class="material-symbols-outlined"> home </span>
+<p class="text-xs font-medium leading-normal tracking-wide">Home</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-gray-500 hover:text-[var(--primary-color)] transition-colors" href="courses.html">
+<span class="material-symbols-outlined"> school </span>
+<p class="text-xs font-medium leading-normal tracking-wide">Courses</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-[var(--primary-color)]" href="#">
+<span class="material-symbols-outlined"> emoji_events </span>
+<p class="text-xs font-medium leading-normal tracking-wide">Challenges</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-gray-500 hover:text-[var(--primary-color)] transition-colors" href="studentprofile.html">
+<span class="material-symbols-outlined"> person </span>
+<p class="text-xs font-medium leading-normal tracking-wide">Profile</p>
+</a>
+</div>
+</footer>
+</div>
+
+</body></html>
